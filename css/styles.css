@@ -1,0 +1,85 @@
+.navbar-nav {
+    font-size:1.2rem;
+}
+nav .navbar-brand{
+    font-size:2rem;
+
+}
+.nav-link{
+    margin:0 20px;
+    color:black !important;
+}
+.no-scrollwheel {
+  overflow: hidden !important;
+}
+* {
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+body {
+  font-family: 'Montserrat', sans-serif !important;
+}
+.navbar-brand .logo {
+  margin-left: 20px; /* Add desired margin */
+}
+.about{
+  background-color:#cd8b52;
+}
+
+.bigger-p{
+  font-size:1.5rem;
+}
+.welcome-text{
+  color:#cd8b52;
+  font-weight:bolder;
+  font-size:2rem;
+}
+.card-title{
+  color:#cd8b52;
+  font-weight: bold;
+}
+.contact-text{
+  text-align:center;
+}
+/* CSS for larger screens where cards are displayed side by side */
+@media (min-width: 768px) {
+  .card-columns {
+    column-count: 3; /* Adjust the number of columns as needed */
+  }
+}
+
+/* CSS for smaller screens where cards stack on top of each other */
+/* CSS for smaller screens where cards stack on top of each other */
+@media (max-width: 767px) {
+  .bigger-p{
+    font-size:1rem;
+    font-weight:bold;
+  }
+  .welcome-text{
+    font-weight:bolder;
+    font-size:1.5rem;
+  }
+  .card {
+    margin-bottom: 20px; /* Adjust the desired margin value */
+  }
+  .fa-2x {
+    font-size: 1.5rem; /* Adjust the font size as needed */
+  }
+
+  .contact-text-first,
+  .contact-text-second {
+    font-size: 0.8rem; /* Adjust the font size as needed */
+  }
+}
+.footer{
+  background-color:#cd8b52;
+  color:white;
+}
+.contact-text-first{
+  font-weight:bolder;
+}
+.contact-text-second{
+  font-weight:bold;
+  padding-bottom:2rem;
+}
